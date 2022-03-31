@@ -58,7 +58,7 @@ def load_data(city, month, day):
 
 #Explore US BIKE share data:
 print("hello there, lets explore some US BIKE share data: ")
-
+#create a function that returns a dataframe of the filter:(git example)
 def display_data():
     #Get inputs from the user:
     #city:

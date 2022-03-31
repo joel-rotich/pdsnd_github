@@ -124,7 +124,8 @@ def display_data():
         print(count_gender)
         print("most recent birth: "+most_recent_birth)
         print("most common yr of birth: ",common_yr_of_birth)
-    #function within a function(for sample data display)    
+    #function within a function(for sample data display) 
+    print("create a function to display sample data") 
     def display_raw_data():
         try:
             print("Do you want to display sample data?")

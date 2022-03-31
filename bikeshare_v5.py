@@ -56,7 +56,7 @@ def load_data(city, month, day):
     return df
 
 
-
+#Explore US BIKE share data:
 print("hello there, lets explore some US BIKE share data: ")
 
 def display_data():
@@ -69,11 +69,11 @@ def display_data():
         print("Wrong city input. Enter one of: chicago,new york city,washington")
         city = input("Wrong city input. Enter the correct city: ")
 
-    #month:
+    #month: filter by month.
     print("would you like to filter by month? Enter a month name(enter ''all'' for no filter): ")
     month = input('Enter Month: ').lower()
 
-    #day of the week:
+    #day of the week: Filter by day of the week.
     print("would you like to filter by day of the week? (Enter day_name or ''all'' for no filter )")
     day = input("Enter day of the week: ").capitalize()
     df_final = load_data(city,month,day)
